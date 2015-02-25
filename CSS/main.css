@@ -93,8 +93,7 @@ table {
 }
 .home {
 	vertical-align: middle;
-	
-	
+	font-family: 'Quicksand', sans-serif;
 }
 .home img {
 	border-radius: 100%;
