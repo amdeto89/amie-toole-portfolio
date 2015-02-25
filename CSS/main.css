@@ -1,0 +1,263 @@
+/* Paul Irish Box-Sizing: Border-Box reset - apply a natural box layout model to all elements, but allowing components to change http://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* Start of Custom Style */
+.content {
+    padding: 0 15px;
+    margin: 0 auto;
+    min-width: 37.5rem;
+}
+/* Navigation Section */
+.top-navigation {
+    background-color: #fff;
+	width: 100%;
+	padding: 0px 15px;
+	z-index: 9999;
+	position: fixed;
+}
+.top-navigation > .content {
+	margin: 0 auto;
+	height: 50px;
+}
+.top-navigation .links {
+    float: right;
+    font-family: 'Quicksand', sans-serif;
+    color: #838994;
+    font-size: 16px;
+    margin-top: 25px;
+}
+.top-navigation .links li {
+    display: inline-block;
+    margin-left: 25px;
+}
+.top-navigation .links .active {
+    color: #4c5058;
+    font-weight: 500;
+}
+.top-navigation .links li:hover {
+    cursor: pointer;
+    color: #FF69B4;
+}
+}
+.home {
+	vertical-align: middle;
+	
+	
+}
+.home img {
+	border-radius: 100%;
+	padding-left: 14em;
+	padding-right: 2em;
+	vertical-align: 15%;
+}
+
+.content span {
+font-size: -webkit-xxx-large;
+
+}
+.introduction {
+	border: 2px dotted #000;
+	margin-top: 20em;
+	margin-left: 30em;
+	margin-right: 30em;
+	margin-bottom: 10em;
+}
+.introduction h1 {
+	font-size: 2em;
+	margin-top: -1em;
+	padding: 10px 5px;
+	background-color: #fff;
+	margin-left: 8em;
+	margin-right: 8em;
+	margin-bottom: 1em;
+}
+.content p {
+	padding-bottom: 2em;
+	padding-left: 2em;
+	padding-right: 2em;
+	line-height: normal;
+	font-family: 'Jacques Francois', serif;
+
+}
+.projects h2 {
+	font-size: 2em;
+	margin-bottom: 2em;
+
+}
+.example {
+	margin: 1em auto;
+	max-width: 1106px;
+	text-align: center;
+}
+ 
+.example  li {
+	border: 5px solid white;
+	display: inline-block;
+	margin: 1em;
+	width: 289px;
+}
+ 
+.example img {
+	display: block;
+	height: auto;
+	max-width: 100%;
+}
+ 
+.example  figure {
+	height: 163px;
+	overflow: hidden;
+	position: relative;
+	width: 289px;
+}
+ 
+.example figcaption {
+	background: rgba(0,0,0,0.8);
+	color: white;
+	display: table;
+	height: 100%;
+	left: 0;
+	opacity: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: 100;
+}
+ 
+.example figcaption p {
+	display: table-cell;
+	font-size: 1.5em;
+	position: relative;
+	top: -40px;
+	width: 289px;
+	vertical-align: middle;
+}
+.example li:hover figcaption {
+	opacity: 1;
+}
+
+.example figcaption p {
+	display: table-cell;
+	font-size: 1.5em;
+	position: relative;
+	top: -40px;
+	width: 289px;
+	-webkit-transition: all 300ms ease-out;
+	-moz-transition: all 300ms ease-out;
+	transition: all 300ms ease-out;
+	vertical-align: middle;
+}
+ 
+.example li:hover figcaption p {
+	-moz-transform: translateY(40px);
+	-webkit-transform: translateY(40px);
+	transform: translateY(40px);
+}
+
+.example figcaption {
+	background: rgba(0,0,0,0.8);
+	color: white;
+	display: table;
+	height: 100%;
+	left: 0;
+	opacity: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+	-webkit-transition: all 300ms;
+	-moz-transition: all 300ms;
+	transition: all 300ms;
+	-webkit-transition-delay: 100ms;
+	-moz-transition-delay: 100ms;
+	transition-delay: 100ms;
+	z-index: 100;
+}
+.social {
+    background-color: #fff;
+    overflow: auto;
+    padding-bottom: 9.375rem;
+    text-align: center;
+}
+.social hr {
+    border: 0;
+    border-top: 1px solid #eaebec;
+    margin: 1.313rem 0;
+}
+.social .icons > li {
+    border-radius: 1.25rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    display: inline-block;
+    margin: 1.25rem 5px;
+    border: 1px solid #eaebec;
+    padding: 0.625rem 0;
+    text-align: center;
+}
+.social .icons > li:hover {
+    cursor: pointer;
+}
+.social .twitter {
+    color: #55acee;
+}
+.social .facebook {
+    color: #4c66a4;
+}
+.social .instagram {
+    color: #3f729b;
+}
+.social .copy {
+    font-size: 0.9rem;
+    font-weight: 300;
+    color: #838994;
+}
