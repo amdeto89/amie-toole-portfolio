@@ -90,11 +90,9 @@ table {
     cursor: pointer;
     color: #FF69B4;
 }
-}
 .home {
 	vertical-align: middle;
-	
-	
+	font-family: 'Quicksand', sans-serif;
 }
 .home img {
 	border-radius: 100%;
